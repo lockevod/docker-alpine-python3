@@ -5,7 +5,7 @@ services:
     container_name: alpine-cron
     build:
       context: .
-      dockerfile: alpine.dockerfile
+      dockerfile: Dockerfile
     init: true
     environment:
       - CUSTOM_ENV_VAR=foobar
