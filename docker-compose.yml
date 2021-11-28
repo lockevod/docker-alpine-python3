@@ -10,4 +10,4 @@ services:
     environment:
       - CUSTOM_ENV_VAR=foobar
     volumes:
-      - ./alpine-crontab-example.txt:/var/spool/cron/crontabs/root
+      - ./crontab-tado.txt:/var/spool/cron/crontabs/root
