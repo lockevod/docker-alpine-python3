@@ -5,7 +5,6 @@
 # 0       2       *       *       *       run-parts /etc/periodic/daily
 # 0       3       *       *       6       run-parts /etc/periodic/weekly
 # 0       5       1       *       *       run-parts /etc/periodic/monthly
-*       *       *       *       *       date
-*       *       *       *       *       echo "${CUSTOM_ENV_VAR}"
+*/5       *       *       *       *       echo "${CUSTOM_ENV_VAR}"
 
 
