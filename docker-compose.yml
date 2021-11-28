@@ -10,4 +10,5 @@ services:
     environment:
       - CUSTOM_ENV_VAR=foobar
     volumes:
-      - ./crontab-tado.txt:/var/spool/cron/crontabs/root
+      - docker/tado/docker/crontab-tado.txt:/var/spool/cron/crontabs/root
+      - docker/tado/tado:/tado
